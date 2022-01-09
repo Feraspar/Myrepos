@@ -29,10 +29,10 @@ namespace lab4._2_1_
             Console.WriteLine(Environment.NewLine + "A - B = " + res);
             
         }
-        public static void mult()
+        public static void seg()
         {
-            res = A * B;
-            Console.WriteLine(Environment.NewLine + "A * B = " + res);
+            res = A / B;
+            Console.WriteLine(Environment.NewLine + "A / B = " + res);
         }
     }
 }
