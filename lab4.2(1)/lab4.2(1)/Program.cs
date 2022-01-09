@@ -17,6 +17,12 @@ namespace lab4._2_1_
         {
 
         }
+        public static void add()
+        {
+            res = A + B;
+            Console.WriteLine(Environment.NewLine + "A + B = " + res);
+
+        }
         public static void sub()
         {
             res = A - B;
